@@ -1,0 +1,218 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logo.png"  width= "100", height="50" class="logo"></img>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Projects</a></li>
+                        <li><a href="#about">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times"></i>
+                    </ul>
+                    <i class="fas fa-bars"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Pre Final Year Student</p>
+                    <h1>Hi, I'm <span>Tanushree</span><br>from IIT Jodhpur</h1>
+        
+                </div>
+            </div>
+        </div>
+        <!-- ----------ABOUT---------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="user.jpeg" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a Chemical Engineering student at IIT Jodhpur with a keen interest in both traditional engineering roles and tech-oriented positions. While I am passionate about advancing chemical processes and sustainability, I am also eager to explore opportunities in software engineering, data science, and other tech-driven fields. My diverse interests enable me to bridge the gap between chemical engineering and technology, allowing me to contribute effectively to a wide range of projects.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                            <p class="tab-links" onclick="openTab('experience')">Positions</p>
+                            <p class="tab-links" onclick="openTab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>PROBLEM SOLVING</span><br>Data Structure And Algorithms</li>
+                                <li><span>LANGUAGES</span><br>C, C++, Python (basic)</li>
+                                <li><span>MACHINE LEARNING</span><br>Python, datascience, sklearn</li>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces (Figma)</li>
+                                <li><span>APP DEVELOPMENT</span><br>Dart, Firebase, MySQL</li>
+                                <li><span>OTHER SKILLS</span><br>Research, Commitment, Collboration, Communication, Leadership</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Aug 2023- April 2024</span><br>Joint Secretary| Dramatics Club, IIT Jodhpur</li>
+                                <li><span>Oct 2023- April 2024</span><br>Core Member | Society of Alumni Affairs, IIT Jodhpur</li>
+                                <li><span>2022</span><br>Volunteer | Fests- Aftaab, Ignus, Intellia, Prometeo</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-2025</span><br>Indian Institute of Technology, Jodhpur |Computer Science and Engineering</li>
+                                <li><span>2021</span><br>XII (CBSE)| Lyceum International School | 93.8 %</li>
+                                <li><span>2019</span><br>X (CBSE) | Prabhat Tara School | 96.6 %</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------PROJECTS---------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-network-wired"></i>
+                        <h2>Image Analysis and distinction between Aggregates and Adhered Mortar</h2>
+                        <p>Utilised Machine learning to analyse images and mark the Adhered
+                            Mortar and Aggregates</p>
+                        <p>Implemented the machine learning algorithm to make a real world
+                            application.</p>
+                        <p>Skills Used: Machine Learning, Image recognition, Research
+                            Methodology, Academic Reading</p>
+                        <!-- <a href="">Learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Institute Library Management App</h2>
+                        <p>Designing and developing a cross-platform Library Management App
+                            using Flutter and Dart.
+                            </p>
+                        <p>Collaborating with a team to ensure efficient organization and
+                            accessibility of resources. Integrating MySQL database for enhanced
+                            data management.</p>
+                        <p>Creating and utilizing APIs for seamless component communication.
+                            Conducted wireframing for UI and funtionality outline.</p>
+                        <p>Skills Used: Flutter, dart, Node.js, MySQL, API, wireframing, App Dev,
+                            UI/UX. Koha</p>
+                        <!-- <a href="">Learn more</a> -->
+
+                    </div>
+                    <div>
+
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Stable Grasping</h2>
+                        <p>Implementation of machine learning model in robotics.</p>
+                        <p>Design algorithms for joints and hands of a robotic arm with my
+                            team. We were able to implement stable grasping.</p>
+                        <p>Defined stable grasping on three parameters position. velocity and
+                            efforts for proper and stable grasping during movements.</p>
+                        <p>Skills Used: Machine Learning, Analysis, Robotics, Physical World
+                            Application</p>
+                        <!-- <a href="">Learn more</a> -->
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------PORTFOLIO--------- -->
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Internships</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="iitbhu.jpg" alt="">
+                    <div class="layer">
+                        <h2>Student Research Intern, IIT Varanasi (BHU)</h2>
+                        <p>During my research internship, I played an integral role in advancing research initiatives by conducting thorough academic literature reviews and executing experiments. My work involved analyzing and interpreting complex data sets, synthesizing insights from scholarly articles, and performing experiments that contributed to the overall research goals.</p>
+                        <p><strong>Tools & technologies used:</strong> Chemical Learning, Research, Academic Reading, Experimentation</p>
+                    </div>
+                </div>
+                
+                <!--
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Online Shopping App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
+                            deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                    -->
+            
+        </div>
+    </div>
+    
+        <!-- ----------CONTACT---------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i> b22ch039@iitj.ac.in</p>
+                        <p><i class="fas fa-phone-square-alt"></i> 6206951959</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/tanushree3003"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/tanushree-3b7b2a288"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/tanushree._.30?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw"><i class="fab fa-instagram"></i></a>                   
+                        </div>
+                        <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn3">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright @ Tushar Sharma.  <i class="fas fa-heart"></i> IIT Jodhpur</p>
+            </div>
+        </div>
+
+
+
+        <script>
+            var tabLinks = document.getElementsByClassName('tab-links');
+            var tabContents = document.getElementsByClassName('tab-contents');
+
+            function openTab(tabName) {
+                for (tabLink of tabLinks) {
+                    tabLink.classList.remove('active-link');
+                }
+                for (tabContent of tabContents) {
+                    tabContent.classList.remove('active-tab');
+                }
+                event.currentTarget.classList.add('active-link');
+                document.getElementById(tabName).classList.add('active-tab');
+            }
+
+            // JavaScript for handling the mobile navigation menu
+            document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+                document.querySelector('nav ul').classList.toggle('show');
+            });
+
+            document.querySelector('.fas.fa-times').addEventListener('click', function () {
+                document.querySelector('nav ul').classList.remove('show');
+            });
+
+        </script>
+    </body>
+
+    </html>
