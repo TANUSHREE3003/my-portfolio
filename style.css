@@ -6,8 +6,8 @@
 }
 
 body {
-    background: #e87cb8;
-    color: #5467cf;
+    background: #080808;
+    color: #fff;
 }
 
 #header {
@@ -40,7 +40,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #31290d;
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -78,7 +78,7 @@ nav ul li a:hover::after {
 /* ----------ABOUT---------- */
 #about {
     padding: 80px 0px;
-    color: #4219d5;
+    color: #ababab;
 }
 
 .row {
@@ -103,7 +103,7 @@ nav ul li a:hover::after {
 .sub-title {
     font-size: 60px;
     font-weight: 600;
-    color: #31290d;
+    color: #fff;
 }
 
 .tab-titles {
@@ -190,7 +190,7 @@ width: 100%;
 
 .services-list div a {
     text-decoration: none;
-    color: #31290d;
+    color: #fff;
     font-size: 14px;
     margin-top: 20px;
     display: inline-block;
@@ -255,7 +255,7 @@ width: 100%;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
-    background: #31290d;
+    background: #fff;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -277,7 +277,7 @@ width: 100%;
     border: 1px solid #ff004f;
     padding: 14px 50px;
     border-radius: 6px;
-    color: #31290d;
+    color: #fff;
     text-decoration: none;
     transition: background 0.75s;
 }
@@ -313,13 +313,13 @@ width: 100%;
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #2d1ba2;
+    color: #ababab;
     display: inline-block;
     transition: color 0.5s, transform 0.5s;
 }
 
 .social-icons a:hover {
-    color: #ff00d4;
+    color: #ff004f;
     transform: translateY(-5px);
 }
 
@@ -328,9 +328,9 @@ width: 100%;
 }
 
 .btn.btn3 {
-    background: #d9a5c2;
+    background: #080808;
     margin-top: 30px;
-    transition: 0.5;
+    transition: background 0.5;
 
 }
 
@@ -347,10 +347,10 @@ form textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background: #d9a5c2;
+    background: #262626;
     padding: 15px;
     margin: 15px 0;
-    color: #31290d;
+    color: #fff;
     font-size: 18px;
     border-radius: 6px;
 }
@@ -359,7 +359,7 @@ form textarea {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #ec4ca4;
+    background: #262626;
     font-weight: 300;
     margin-top: 20px;
 }
@@ -370,7 +370,7 @@ form textarea {
 }
 
 .copyright i:hover {
-    color: #31290d;
+    color: #fff;
 }
 
 nav .fas {
